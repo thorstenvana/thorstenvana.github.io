@@ -54,3 +54,12 @@ h2 {
 	margin-bottom:40px;
 }
 
+.dark-bg {
+	background-color:#1d1d1d;
+	padding-bottom:40px;
+	color:#ccc;
+}
+
+.dark-bg p {
+	font-size:20px;
+}
