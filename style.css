@@ -1,0 +1,51 @@
+.header-img{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: fixed;
+	background-image:url('C:\Users\thors\Desktop\Thorsten_website\images\background_photo.jpg');
+	
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.header-img img { 
+	width: 100%;
+}
+
+.title{
+	position:fixed;
+	width:100%;
+	text-align:left;
+	margin-left:10%;
+	color:#fff;
+}
+
+.main-title h1{
+	font-size:60px;
+}
+
+.sub-title{
+	font-size:30px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+.wrapper{
+	background-color: #fff;
+	position: relative;
+	padding-bottom: 40px;
+}
+
+h2 {
+	text-align: center;
+	padding: 40px;
+	font-size: 36px;
+}
+
+.card{
+	border: none;
+	margin-bottom:40px;
+}
+
