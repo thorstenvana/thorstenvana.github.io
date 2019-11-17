@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+<meta charset=utf-8">
+<title>Thorsten Vana</title>
+<meta name="What this website is about?" content="It's a travel blog in the making where I share experiences from my past 
+trips and by planning new ones, while at the same time learning more about coding and creating websites. It's going to be an interesting 
+combination :)">
+<meta name="keywords" content="bike trips, cycling trips, travel experiences, travelling with a bike, travelling long term, what you need while travelling,
+travel essentials,">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" >
+
+</head>
+<body style="background-color:#e6e6fa;">
+	<div class="header-img">
+		<img src="images\background_photo.JPG" alt="Background photo">		
+		<div class="title">
+			<div class="sub-title">Hi, I'm</div>
+			<div class="main-title"><h1>Thorsten Vana</h1></div>
+		</div>
+	</div>
+	
+	<div class="wrapper">
+		<div class="container">
+			<div class="section-about">
+				<hr>
+				<h1>About this site</h1>
+				<p> Hello and welcome to my page! I have created this webpage as a project to learn more about coding, but also to share 
+				my experiences while travelling, what I have learned on the way and what is next on the list in terms of travelling. 
+				Feel free to come back to this site from time. The chances are high that there will be something new to explore,
+				while I continue my learning journey :)</p>
+				<hr>
+			</div>
+			<div class="section-places">
+				<h2>Places I have visited</h2>
+				<div class="card mb-12">
+					<div class="row no-gutters"> 
+						<div class="col-md-4">
+							<img src="images/Tenerife.jpg" class="card-img" alt="Tenerife image">
+						</div>
+						<div class="col-md-8" >
+							<div class="card-body">
+								<h5 class"card-title">Tenerife</h5>
+								<p class="card-text">Experiences from this amazing volcanic island of the coast of Africa</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								<button type="button" class="btn btn-outline-dark btn-lg">Read more ...</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-12">
+					<div class="row no-gutters"> 
+						<div class="col-md-4">
+							<img src="images/Lviv.jpg" class="card-img" alt="Lviv image">
+						</div>
+						<div class="col-md-8" >
+							<div class="card-body">
+								<h5 class"card-title">Lviv</h5>
+								<p class="card-text">Travel report about my trip to Lviv in Western Ukraine with it's beautiful historic buildings and the mountains close by.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								<button type="button" class="btn btn-outline-dark btn-lg">Read more ...</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card mb-12">
+					<div class="row no-gutters"> 
+						<div class="col-md-4">
+							<img src="images/Utrecht.jpg" class="card-img" alt="Utrecht image">
+						</div>
+						<div class="col-md-8" >
+							<div class="card-body">
+								<h5 class"card-title">Utrecht</h5>
+								<p class="card-text">A Small Amsterdam only 30 mins from Amsterdam.</p>
+								<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+								<button type="button" class="btn btn-outline-dark btn-lg">Read more ...</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		<div class="dark-bg">
+			<div class="subscribe-container">
+				<h2>Subscribe to my newsletter</h2>
+				<p class="text-center">Get observations, stories, advice and ideas that I am not sharing anywhere else on the internet.</p>
+				<form>
+					<div class="form-row justify-content-center">
+						<div class="col-sm-3">
+							<input type="text" class="form-control" placeholder="Name" required>
+						</div>
+						<div class="col-sm-3">
+							<input type="email" class="form-control" placeholder="Email" required>
+						</div>
+						 <div class="col-auto">
+						  <button type="submit" class"btn btn-outline-light">Submit</button>
+						 </div>
+					</div>
+				</form>	
+			</div>
+		</div>	
+		</div>
+    </div>		
+
+	
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+
+<script>
+$(document).ready(function() {
+	resizeDiv('.header-img','.title');
+	$(window).resize(function() {
+		resizeDiv('.header-img','.title');
+		});
+	})
+	
+</script>
+
+	
+</body>
+
+
+</html>
