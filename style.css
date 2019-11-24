@@ -3,11 +3,10 @@
 	background-position: center;
 	background-size: cover;
 	position: fixed;
-	background-image:url('C:\Users\thors\Desktop\Thorsten_website\images\background_photo.jpg');
-	
+	background-image:url('images\background_photo.jpg');
 	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .header-img img { 
@@ -23,11 +22,11 @@
 }
 
 .main-title h1{
-	font-size:60px;
+	font-size: 3rem;
 }
 
 .sub-title{
-	font-size:30px;
+	font-size: 1.7rem;
 	font-style:italic;
 	font-weight:bold;
 }
@@ -44,8 +43,12 @@ h2 {
 	padding: 40px;
 	font-size: 36px;
 }
+.section-skills {
+	margin-top: 5rem;
+}
 
-.section-about h1{
+.section-about h1,
+.section-skills h1{
 	text-align: center;
 }
 
@@ -63,3 +66,30 @@ h2 {
 .dark-bg p {
 	font-size:20px;
 }
+
+.skills-container {
+  width: 100%;
+  background-color: #ddd;
+  margin: 5px 0;
+}
+
+.skills {
+  text-align: right;
+  padding-top:2px;
+  padding-bottom: 2px;
+  background-color: #127782;
+  height: 10px;
+}
+
+.skills-row {
+  margin-bottom: .9rem;
+}
+
+.skills-row label{
+  margin-bottom: 0;
+}
+.skill1 {width: 90%; }
+.skill2 {width: 90%; }
+.skill3 {width: 65%; }
+.skill4 {width: 60%; }
+.skill5 {width: 45%; }
